@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.custom-scrollbar::-webkit-scrollbar{
+    height: 8px !important;
+    width: 8px !important;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb{
+    background-color: rgba(154, 154, 154, 0.733);
+}
+
+
+
+/* ImageViewer.module.css */
+.fade-in {
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+  }
+  
+  .fade-in.active {
+    opacity: 1;
+  }
+  
